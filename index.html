@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#bmi">BMI Calculator</a>
+      <a href="#about">About Us</a>
+      <!-- Add more navigation links as needed -->
+    </div>
+  <div class="outer">
+    <div class="BMI">
+      <h1>BMI CALCULATOR</h1>
+      <div class="h">
+        <label for="height">Enter Your height (cm)</label>
+        <input type="number" id="height" placeholder="Enter your height"/>
+      </div>
+      <div class="w">
+        <label for="weight">Enter Your weight (Kg)</label>
+        <input type="number" id="weight" placeholder="Enter your Weight"/>
+      </div>
+      <div class="result">
+        <button id="btn" onclick="bmi()">Calculate</button>
+      </div>
+
+      <span id="heading"></span>
+      <span id="output"></span>
+    </div>
+  </div>  
+   <div class="line"></div>
+
+   <div class="sectionone">
+    <div class="left">
+      <p>Here you check your health according to your BMI</p>
+      <img src="images/meter.png" alt="">
+    </div>
+   </div>
+
+   <!-- Your BMI Calculator Content Goes Here -->
+
+  <div class="footer">
+    <p>&copy; 2023 Your BMI Calculator. All rights reserved.</p>
+  </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
